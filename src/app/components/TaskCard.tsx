@@ -16,7 +16,7 @@ const TaskCard: React.FC<TaskProps> = ({ id, title, description, assignee, dueDa
   const dispatch = useDispatch();
 
   return (
-    <div className="p-4 bg-gray-800 rounded-lg shadow-lg">
+    <div className="p-4 bg-gray-800 rounded-lg shadow-lg mb-4">
       <h3 className="text-lg font-semibold">{title}</h3>
       <p className="text-sm">{description}</p>
       <p className="text-sm">Assigned to: {assignee}</p>
