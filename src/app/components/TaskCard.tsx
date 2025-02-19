@@ -12,7 +12,7 @@ interface TaskProps {
   dueDate: string;
 }
 
-const TaskCard: React.FC<TaskProps> = ({ id, title, description, status, assignee, priority, dueDate }) => {
+const TaskCard: React.FC<TaskProps> = ({ id, title, description, assignee, dueDate }) => {
   const dispatch = useDispatch();
 
   return (
