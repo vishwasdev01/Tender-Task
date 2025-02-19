@@ -71,6 +71,15 @@ const initialState: TaskState = {
       priority: "High",
       dueDate: "2024-12-22",
     },
+    {
+      id: uuidv4(),
+      title: "Construction Tender 7 ",
+      description: "Description goes here about the new tender",
+      status: "To Do",
+      assignee: "Hussain Doe",
+      priority: "Medium",
+      dueDate: "2024-12-22",
+    },
   ],
 };
 
